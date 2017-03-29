@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="1">
+    <parameter name="Navegador" value="Chrome" />
+    <parameter name="Ambiente" value="DICON" />
+    <parameter name="Usuario2" value="" />
+    <parameter name="Grabacion" value="OKK" />
+    <parameter name="Ubicacion" value="LegisLan" />
+    <parameter name="RutaImagenes" value="c:\\imagenes" />
+     <parameter name="Resolucion" value="Laptops" />
+   <test name="Prueba Capturar Data ">
+    <classes>
+      <class name="Regresion.CapturarData"/>
+          </classes>
+  </test> <!-- Test -->
+  
+    </suite> <!-- Suite -->
